@@ -1173,6 +1173,11 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
+    { "paxtecum.io", "seed1.paxtecum.io" },
+    { "paxtecum.io", "seed2.paxtecum.io" },    
+    { "paxtecum.io", "seed3.paxtecum.io" },
+    { "paxtecum.io", "seed4.paxtecum.io" },
+    { "paxtecum.io", "seed5.paxtecum.io" },
     {NULL, NULL}
 };
 
@@ -1225,7 +1230,7 @@ void ThreadDNSAddressSeed()
 
 unsigned int pnSeed[] =
 {
-  0x99ff1659
+  0x063918d4
 };
 
 void DumpAddresses()
